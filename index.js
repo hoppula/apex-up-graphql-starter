@@ -13,8 +13,6 @@ const server = new ApolloServer({
 });
 
 var app = express();
-app.use(express.static("build"));
-
 server.applyMiddleware({
   app
 });
