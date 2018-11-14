@@ -1,0 +1,11 @@
+{
+  "name": "apex-up-graphql-starter",
+  "profile": "personal",
+  "region": ["eu-central-1"],
+  "lambda": {
+    "memory": 512
+  },
+  "environment": {
+    "PORT": "4000"
+  }
+}
